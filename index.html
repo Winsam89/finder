@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finder</title>
+  <!-- Reset Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Bootstrap Lux Theme -->
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-hVpXlpdRmJ+uXGwD5W6HZMnR9ENcKVRn855pPbuI/mwPIEKAuKgTKgGksVGmlAvt" crossorigin="anonymous">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Personal Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- Login Nav Page -->
+  <div id="navigation1">
+    <nav class="navbar nav">
+      <button id="locationNav" onclick="dispLocationPage()" class="currentLocation">
+        <!-- <i class="fas fa-map-marker-alt fa-2x"></i> -->
+        <!-- <img src="assets/images/location.png"> -->
+      </button>
+      <img src="assets/images/finder1.png">
+      <button id="heartNav" onclick="dispFaves()" class="fave1">
+        <!-- <i class="fas fa-star fa-2x"></i> -->
+        <!-- <img src="assets/images/star.png"> -->
+      </button>
+    </nav>
+  </div>
+
+  <!-- Login Page -->
+  <div class="container mainDivs" id="loginPage">
+    <div class="row">
+      <div id="loginHeader" class="col-sm">
+        <h1>DISCOVER YOUR NEW FAVORITE EATERIES.</h1>
+      </div>
+
+      <div id="loginForm" class="col-sm-md-lg body">
+        <div id="signInPage">
+          <h2></h2>
+          <form type="text">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Password">
+          </form>
+          <button class='login-btn' id="login" onclick="dispFunction()"> Sign in
+           
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Nav Page -->
+  <div id="navigation2">
+    <nav class="navbar nav">
+      <button onclick="dispLocationPage()" class="currentLocation">
+        <img src="assets/images/location.png">
+        <!-- <i class="fas fa-map-marker fa-2x"></i> -->
+      </button>
+  
+      <img src="assets/images/finder1.png">
+      <button onclick="dispFaves()" class="fave">
+        <img src="assets/images/star.png">
+        <!-- <i class="fal fa-star fa-2x"></i> -->
+      </button>
+    </nav>
+  </div>
+
+  <!-- Location Page -->
+  <div class="container mainDivs" id="locationPage">
+    <div class="row">
+      <div class="body col-sm-12 col-m-12 col-l-12">
+        <div>
+          <h1>Where would you like to eat?</h1>
+          <div id="locationForm">
+            <form type="text">
+              <input type="text" id="locationInput" name="location" placeholder="Current Location">
+            </form>
+
+            <button class='search-btn' id='search' onclick="dispMainPage()"> Search
+            </button>
+
+     
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Page showing randomized Restaurants -->
+
+  <div class="container mainDivs" id="mainPage">
+    <div id="quoteDiv">
+      <div class="container" id="kanyeDiv">
+        <div class="row">
+          <div id="kanye" class="col-3">
+            <div id="kanyePic">
+              <img src="assets/images/kanye.png">
+            </div>
+          </div>
+
+          <div id="quoteSection" class="col-9">
+            <div>
+              <p id="kanyeQuoteTitle">KANYE'S FOOD FOR THOUGHT</p>
+              <p id="kanyeQuote"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="body col-sm-12 col-m-12 col-l-12">
+        <div class="card">
+          <img id="heartImage" class="card-img-top" src="assets/images/heart.gif" alt="Card image cap">
+          <img id="restImage" class="card-img-top" src="#" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Restaurant Name</h5>
+            <h6 class="card-subtitle mb-2 text-muted"></h6>
+            <p class="card-type">Type of food</p>
+            <p class="card-price">Price Point</p>
+            <p class="card-transaction">Transactions</p>
+            <p class="card-telephone">Telephone</p>
+            <p class="card-url">url</p>
+            <div id="saveBtn">
+              <button id="notFavorite" type="button" class="btn btn-danger btn-circle btn-xl">
+                <i class="fa fa-times"></i>
+              </button>
+              <button id="addToFavorites" type="button" class="btn btn-danger btn-circle btn-xl">
+                <i class="fa fa-heart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Favorites Page -->
+  <div class="container mainDivs" id="favoritesPage">
+    <div class="row">
+      <div class="body col-sm-12 col-m-12 col-l-12">
+        <div id="favorites">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Page Footer -->
+  <footer class="page-footer footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="footer-box">
+            <img src="./assets/images/logowhite.png">
+            <h6 class="copy-rights">All rights reserved.</h6>
+          </div>
+        </div>
+        <!-- <div id="footerBtns" class=".col-6">
+          <button class="social">
+            <img src="./assets/images/fb.png">
+          </button>
+          <button class="social">
+            <img src="./assets/images/insta.png">
+          </button>
+        </div> -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script links -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+  <script src="./assets/js/finder.js"></script>
+</body>
+
+</html>

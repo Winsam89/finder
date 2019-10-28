@@ -1,0 +1,432 @@
+/* button css */
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+/* navigation login page */
+#navigation {
+  padding: 0px 0px 0px 0px;
+}
+.nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 4rem;
+}
+
+/* Login nav bar */
+#navigation1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+#heartNav {
+  color: black;
+}
+#locationNav {
+  color: black;
+}
+
+/* sign in page */
+#loginPage {
+  background: url(../images/breakfast-eating-food-1861784.png);
+  height: 744px;
+  background-size: cover;
+  background-position: center;
+}
+.login-btn {
+  background-color: #ff562e;
+  width: 340px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+.search-btn {
+  background-color: #ff562e;
+  width: 340px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+#signInPage {
+  text-align: center;
+}
+.nav {
+  background-color: black;
+  height: 4rem;
+}
+h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 120px 20px 70px 20px;
+  font-size: 33px;
+}
+h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+h6 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 2px 0px 1px 0px;
+}
+.copy-rights {
+  font-size: 10px;
+}
+.social {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+input {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 0px 0px 8px 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: none;
+  width: 340px;
+  height: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+input::placeholder {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/* location page */
+#locationPage {
+  background: url(../images/breakfast-eating-food-1861784.png);
+  height: 744px;
+  background-size: cover;
+  background-position: center;
+  display: none;
+}
+#locationForm {
+  text-align: center;
+}
+#checkMark {
+  text-align: center;
+  margin: 10px;
+}
+
+/* main nav bar */
+#navigation2 {
+  padding: none;
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+
+/* Main Page showing randomized Restaurants */
+#mainPage {
+  display: none;
+  text-align: center;
+}
+.card-url {
+  display: none;
+}
+#quoteDiv {
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+}
+.card {
+  margin: 0px 0px 20px 0px;
+}
+#quoteSection {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+}
+.card-body {
+  text-align: left;
+}
+.card-title {
+  color: #ff562e;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+#restImage {
+  height: 200px;
+  object-fit: cover;
+}
+#saveBtn {
+  text-align: center;
+}
+.mainDivs {
+  padding-top: 4rem;
+}
+.body {
+  margin-bottom: 4rem;
+}
+#kanye {
+  align-items: baseline;
+}
+#addToFavorites {
+  margin-left: 20px;
+  background-color: #ff562e;
+  border: none;
+}
+#notFavorite {
+  margin-right: 20px;
+  background-color: black;
+  border: none;
+}
+#kanyeQuoteTitle {
+  color: #ff562e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 0px 0px 0px 0px;
+}
+#kanyeQuote {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+#kanyePic {
+  padding-bottom: 10px;
+}
+
+/* Favorites Page  */
+#favoritesPage {
+  display: none;
+}
+h3 {
+  color: #ff562e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+h4 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+p {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin: none;
+}
+#favorites {
+  text-align: center;
+  background-color: white;
+}
+a {
+  color: #ff562e;
+  border: #ff562e 1px solid;
+  padding: 8px 15px 8px 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+a:hover {
+  background-color: #ff562e;
+  color: white;
+  border: #ff562e 1px solid;
+  padding: 8px 15px 8px 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: none;
+}
+hr {
+  margin: 40px 0px 20px 0px;
+}
+.favoritesDiv {
+  margin: 20px;
+}
+
+/* footer */
+.footer {
+  background-color: #ff562e;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer-box {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Heart animation */
+#addToFavorites {
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+  background-image: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 2900%;
+}
+#addToFavorites:hover {
+  background-position: right;
+}
+.is_animating {
+  animation: heart-burst 1s steps(28) 1;
+  -webkit-animation: heart-burst 1s steps(28) 1;
+}
+@keyframes heart-burst {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
+#heartImage {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav {
+    max-width: 600px;
+  }
+  #login {
+    margin: 0;
+    padding: 0px;
+    color: none;
+  }
+  .currentLocation {
+    margin: 0;
+    border: none;
+    background-color: transparent;
+  }
+  .fave {
+    margin: 0;
+    border: none;
+    background-color: transparent;
+  }
+  .footer {
+    max-width: 600px;
+    background-color: #ff562e;
+    height: 70px;
+    position: fixed;
+  }
+  #heartNav {
+    display: none;
+  }
+  #locationNav {
+    display: none;
+  }
+  h1 {
+      text-align: center;
+  }
+  h3 {
+    color: #ff562e;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  h4 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  p {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: none;
+  }
+  #favorites {
+    text-align: center;
+    background-color: white;
+  }
+  a {
+    color: #ff562e;
+    border: #ff562e 1px solid;
+    padding: 8px 15px 8px 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  a:hover {
+    background-color: #ff562e;
+    color: white;
+    border: #ff562e 1px solid;
+    padding: 8px 15px 8px 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  hr {
+    margin: 40px 0px 20px 0px;
+  }
+  button {
+      background-color: transparent;
+      border: none;
+  }
+  #loginPage {
+    background: url(../images/breakfast-eating-food-1861784.png);
+    height: 100vh;
+    background-position: center;
+  }
+  #locationPage {
+    background: url(../images/breakfast-eating-food-1861784.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: none;
+  }
+}
+/* @media screen and (min-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+  } */
