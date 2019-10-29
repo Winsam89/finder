@@ -30,13 +30,13 @@ let coordinates = {}
 //Function Declaration//
 
 // function to call Kanye quote
-const kanyeQuote = _ => {
-    fetch(`https://api.kanye.rest`)
-        .then(r => r.json())
-        .then(r => {
-            document.querySelector('#kanyeQuote').textContent = `${r.quote}`
-        })
-}
+// const kanyeQuote = _ => {
+//     fetch(`https://api.kanye.rest`)
+//         .then(r => r.json())
+//         .then(r => {
+//             document.querySelector('#kanyeQuote').textContent = `${r.quote}`
+//         })
+// }
 
 // Function used for "x miles away" location tag
 const distFunc = (lat1, lon1, lat2, lon2) => {
@@ -211,7 +211,7 @@ document.querySelector('#search').addEventListener(`click`, e => {
     // // variable to house city input
     city = document.getElementById(`locationInput`).value
 
-    kanyeQuote()
+    // kanyeQuote()
 
     if (city === ``) {
         console.log(`search coords`)
@@ -248,7 +248,7 @@ document.getElementById('addToFavorites').addEventListener('click', e => {
     // reruns city/coords search functions on "Favorites" press
     city = document.getElementById(`locationInput`).value
 
-    kanyeQuote()
+    // kanyeQuote()
 
     if (city === ``) {
         console.log(`search coords`)
@@ -278,7 +278,7 @@ document.getElementById('notFavorite').addEventListener('click', e => {
     // reruns city/coords search and Kanye quote functions on "Dislike" press
     city = document.getElementById(`locationInput`).value
 
-    kanyeQuote()
+    // kanyeQuote()
 
     if (city === ``) {
         console.log(`search coords`)

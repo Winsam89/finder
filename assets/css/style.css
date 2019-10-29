@@ -428,6 +428,10 @@ hr {
   .body {
     padding: 0;
   }
+  .mainDivs  {
+    background-color: white;
+    height: 900px;
+  }
 }
 /* @media screen and (min-width: 600px) {
     body {
