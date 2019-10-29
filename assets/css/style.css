@@ -151,7 +151,6 @@ input::placeholder {
   z-index: 4;
 }
 
-
 /* Main Page showing randomized Restaurants */
 #mainPage {
   display: none;
@@ -329,6 +328,8 @@ hr {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(252, 248, 248);
+    padding: 0;
   }
   .nav {
     max-width: 600px;
@@ -361,7 +362,7 @@ hr {
     display: none;
   }
   h1 {
-      text-align: center;
+    text-align: center;
   }
   h3 {
     color: #ff562e;
@@ -385,7 +386,7 @@ hr {
   }
   #favorites {
     text-align: center;
-    background-color: white;
+    padding: 0;
   }
   a {
     color: #ff562e;
@@ -409,8 +410,8 @@ hr {
     margin: 40px 0px 20px 0px;
   }
   button {
-      background-color: transparent;
-      border: none;
+    background-color: transparent;
+    border: none;
   }
   #loginPage {
     background: url(../images/breakfast-eating-food-1861784.png);
@@ -423,6 +424,9 @@ hr {
     background-size: cover;
     background-position: center;
     display: none;
+  }
+  .body {
+    padding: 0;
   }
 }
 /* @media screen and (min-width: 600px) {
